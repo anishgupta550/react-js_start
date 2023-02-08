@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+    padding: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+ul a:hover{
+    background-color: white;
+    color: black;
+}
+button a{
+    color: black;
+    
+}
+button{
+    border: none;
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid black;
+  
+}
+
